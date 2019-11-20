@@ -1,0 +1,179 @@
+\documentclass[12pt,a4paper]{article}
+
+% Localization and encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+% Bibliography
+\usepackage[backend=biber]{biblatex}
+\addbibresource{resources/bibliography.bib}
+
+% Math
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+% Graphics
+\usepackage{graphicx}
+\graphicspath{ {./resources/images/} }
+
+% algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% Counters
+\newcounter{thmCounter}
+\newcounter{defCounter}
+
+% Theorem environments
+\newtheorem{thm}[thmCounter]{Theorem}
+\newtheorem{lem}[thmCounter]{Lemma}
+\newtheorem{prop}[thmCounter]{Proposition}
+\newtheorem{rmk}[thmCounter]{Remark}
+\newtheorem{defn}[defCounter]{Definition}
+
+
+%XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+% Snippets:
+
+%\begin{figure}
+%\center
+%\includegraphics[scale=1]{gadget_M1.pdf}
+%\caption{Gadget \(M_1\). The white nodes are the interface to the gadget-reduced graphs.}
+%\label{gadget_m1}
+%\end{figure}
+
+
+
+
+
+
+
+
+
+%XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+
+\begin{document}
+
+\noindent
+\textbf{University of Helsinki} \newline
+\textbf{Helsinki Institute for Information Technology}
+
+\noindent
+\textbf{Thesis draft}
+
+\noindent
+\textbf{Author: Jarkko Savela}
+
+\section*{before TOC}
+\subsection*{Title Page}
+\subsection*{Abstract}
+\subsection*{Acknowledgements}
+
+\newpage
+\tableofcontents
+
+
+\section{Introduction}
+
+\section{Probabilistic systems}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\begin{itemize}
+\item Describe probabilistic models:
+\begin{itemize}
+\item DTMC
+\item CTMC
+\item DTMDP
+\item CTMDP
+\item (Probabilistic automata)
+\item (Markov automata)
+\end{itemize}
+\item remember to cite references
+\end{itemize}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+\section{Logics for Probabilistic systems}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\begin{itemize}
+\item Define PCTL and LTL as used for PMC
+\item remember to cite references
+\item (mention other property description languages)
+\end{itemize}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\section{Algorithmics}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\begin{itemize}
+\item Describe the algorithms for
+\begin{itemize}
+\item PCTL + DTMC
+\item LTL + DTMC
+\end{itemize}
+\item (Mention variants for continuous time and non-determinism) 
+\item remember to cite references
+\end{itemize}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+\section{Practical relevance}
+\subsection{Applications}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\begin{itemize}
+\item Mention different applications of PMC
+\item Cite case studies here
+\end{itemize}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\subsection{Tool Support}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\begin{itemize}
+\item Mention different tools that exist
+\item Cite the technical papers, tutorials etc for these
+\end{itemize}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\section{Conclusions and Future Prospects}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\begin{itemize}
+\item Mention recent research directions
+\item Cite some fresh papers
+\end{itemize}
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+\section{References}
+
+\printbibliography
+
+\section{Appendices}
+
+
+
+
+
+
+\end{document}
